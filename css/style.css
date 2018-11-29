@@ -96,6 +96,26 @@ mark {
     position: fixed;
 }
 
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: lightcoral;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: lightpink;
+}
+
 
 
     /* Full Screen Video */
