@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+        <!-- title tag -->
+        <title> No Poverty </title>
+        <!-- make webpage mobile friendly-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta description -->
+        <meta name="description" content="Learn about poverty and how big of an issue it is around the world. More than 1.3 billion people live in extreme poverty. Find out how you can help today."/>
+        <!-- W3.css -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- local W3.css 
+<link rel="stylesheet" href="css/w3.css">-->
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- SLIDE 1 -->
+        <section class="mySlides fs-img1" id="full-screen-image">
+            <h1 class="w3-container black-transparent w3-text-white w3-center w3-display-middle w3-wide h1"> No Poverty </h1> 
+        <h2 class="w3-text-white w3-bottom w3-center p black-transparent">If we work together, we can put an end to poverty. </h2></section>
+
+        <!-- SLIDE 2 -->
+        <section class="mySlides" id="two-row-slide" style="height: 100%;">
+            <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-red w3-mobile hs-img1" style="height: 100%;">
+                    <h1 class="h1-text w3-container black-transparent-1 h1">783 MILLION PEOPLE LIVE BELOW 1.90 A DAY.</h1> 
+                </div>
+
+            </div>
+
+            <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-light-blue w3-mobile" style="height: 100%;">
+                    <h1 class="h1-slide2 ">PICTURE IT.. </h1>
+                    <p class="p">You need to feed your family, travel to work, and get your child school supplies! But you only have 1.90 in your pocket. Sems quite impossible, but for more than 700 million people, thats normal. <mark>700 MILLION </mark> people live in extreme poverty. Yes. The overwhelming majority of people are still living on 1.90 or <mark>LESS.</mark> Could you imagine? How would you get those new pairs of shoes or that new iphone XR! These first world problems are far out of the minds of those in poverty.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        <!-- SLIDE 3-->
+        <section class="mySlides" id="two-row-slide" style="height: 100%;">
+            <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-khaki w3-mobile" style="height: 100%;">
+                    <h1 class="h1-text w3-text-black ">WHY DOES IT MATTER?</h1>
+                    <p class="p">Poverty is SO much more than just lack of income and resources. It includes <mark>hunger</mark>, <mark>limited access to education</mark> and <mark>social discrimination.</mark> Normal, everyday people don't have to deal with hunger or lack of discrimination. But just think, put yourself in their shoes. Causes of poverty are changing trends in a country's economy. Extreme weather changes can also cause this problem. </p>
+                </div>
+
+            </div>
+ <div class="w3-cell-row" style="height: 50%;">
+                <div class="w3-cell w3-container w3-mobile hs-img3" style="height: 100%;">
+                    <h1 class="h1-text w3-container black-transparent-2 w3-text-white">POVERTY IS MORE THAN NO MONEY</h1> 
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SLIDE 4 --> 
+        <section class="mySlides" id="two-column-slide" style="height: 100%">
+            <div class="w3-cell-row" style="height: 100%">
+                <div class="w3-cell w3-container w3-pale-red w3-mobile "style="width: 50%;"> 
+                    <p class="p-2" style="text-align: center;"> Well why should I care? You may ask. I'm not poor. Well poverty affects <mark>EVERYONE.</mark> Nearly all possible consequences of poverty have an impact on children. Yes, children. Kids like me and you! Poor infastructures, unemployment and lack of income reflect on kid's education, malnutrition, child labor, and diseases of all kinds. Think about this. What if you were in this situation. What would <mark>YOU</mark> do?</p>
+                </div>
+
+                <div class="w3-cell w3-container w3-blue w3-mobile hs-img2 "style="height: 100%;">
+                    <h1 class="h1-text black-transparent-1"> 167 MILLION CHILDREN IN EXTREME POVERTY </h1>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- SLIDE 5 -->
+        <section class="mySlides" id="full-screen-video">
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                <source src="img/poverty-video.mp4" type="video/mp4">
+            </video>
+
+            <!-- Optional: some overlay text to describe the video -->
+            <div class="content">
+                <h1 class="h1-text w3-text-black ">HOW TO HELP</h1>
+                <p class="p w3-text-beige black-transparent-1" style="text-align: center; ">So how can I help? The most important thing to do is to make your voice heard. Talk about these things with your friends and <mark>take action.</mark> People in poverty don't have much of a voice or platform that they can use so take advantage of yours. Try to get information out because a lot of people don't realize how big of a problem this really is. Another way to help is to donate. Use this link to <a href="https://www.givedirectly.org/" target="_blank">donate here!</a></p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <button id="myBtn" onclick="myFunction()">Pause</button>
+            </div>
+            
+
+        </section>
+
+
+        <!-- slideshow indicators --> 
+        <button class="button w3-ripple w3-display-left w3-text-black w3-xlarge w3-round w3-amber" onclick="plusDivs(-1)">&#x25c0;</button>
+        <button class="button w3-ripple w3-display-right w3-text-black w3-xlarge w3-round w3-amber " onclick="plusDivs(+1)">&#x25ba;</button>
+
+        <!-- javascript -->
+        <script src="js/slideshow.js"></script>
+        <script src="js/video.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+</html>

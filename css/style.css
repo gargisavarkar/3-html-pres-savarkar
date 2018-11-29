@@ -1,0 +1,154 @@
+body, html {
+    height: 100%;
+}
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/povertyslideone.jpg");
+    
+
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-transparent { 
+    background-color: rgba(0,0,0,0.5);}
+
+.black-transparent-1 { 
+    background-color: rgba(0,0,0,0.2);}
+
+.black-transparent-2 { 
+    background-color: rgba(0,0,0,0.5);}
+
+.h1 { font-family: 'Russo One', sans-serif;
+       font-size: 15vh;
+        font-size: 10vw;
+        overflow: hidden;}
+
+.h1-text { font-family: 'Russo One', sans-serif;
+       font-size: 15vh;
+        font-size: 8vw;
+        text-align: center;
+        color: white;
+  
+}
+
+.h1-slide2 { font-family: 'Russo One', sans-serif;
+       font-size: 15vh;
+        font-size: 8vw;
+        text-align:left;
+        color: white;
+  
+}
+
+.p {font-family: 'Russo One', sans-serif;
+    font-size: 5vh;
+    font-size: 3vw;
+}
+
+.p-2 { font-family: 'Russo One', sans-serif;
+       font-size: 10vh;
+       font-size: 3.5vw;}
+.hs-img1 {
+    /* The Image Used */
+    background-image: url("/img/povertyslide2.jpg");
+    /*full height*/
+    height: 100%;
+    /* Center and Scale the Image Nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+.hs-img2 {
+    /* The Image Used */
+    background-image: url("/img/povery-slide-3.jpg");
+    /*full height*/
+    height: 100%;
+    /* Center and Scale the Image Nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.hs-img3{
+/* The Image Used */
+    background-image: url("/img/poverty-slide-4.jpg");
+    /*full height*/
+    height: 100%;
+    /* Center and Scale the Image Nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+mark {
+    background-color: lightcoral;
+    color: black;
+}
+
+.button {
+    position: fixed;
+}
+
+
+
+    /* Full Screen Video */
+/* Style the video: 100% width and height to cover the entire window */
+    
+#myVideo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    #myVideo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+    @media (max-width: 1080px ){
+     #myVideo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+        }
+    }
