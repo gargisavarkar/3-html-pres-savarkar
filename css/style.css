@@ -34,14 +34,16 @@ body, html {
         font-size: 8vw;
         text-align: center;
         color: white;
+ 
   
 }
+
 
 .h1-slide2 { font-family: 'Russo One', sans-serif;
        font-size: 15vh;
         font-size: 8vw;
         text-align:left;
-        color: white;
+        color: black;
   
 }
 
@@ -87,11 +89,37 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;}
 
+.hs-img4{
+/* The Image Used */
+    background-image: url("/img/poverty-slide-5.jpg");
+    /*full height*/
+    height: 100%;
+    /* Center and Scale the Image Nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.hs-img5{
+/* The Image Used */
+    background-image: url("/img/poverty-slide-6.jpg");
+    /*full height*/
+    height: 100%;
+    /* Center and Scale the Image Nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 mark {
     background-color: lightcoral;
     color: black;
 }
 
+.slide5 {font-family: 'Russo One', sans-serif;
+    font-size: vh;
+    font-size: 7.5vw;
+
+    
+    
+}
 .button {
     position: fixed;
 }
